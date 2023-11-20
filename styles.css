@@ -56,7 +56,7 @@ ul a{
 #projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 4rem;
+    grid-gap: 2rem;
     width: 100%;
     max-width: 1280px;
     margin-bottom: 6rem;
@@ -78,6 +78,7 @@ ul a{
   font-size: 1.2rem
 }
 .button{
+  text-align: center;
   display: flex;
   justify-content: center;
 }
@@ -87,8 +88,9 @@ ul a{
     border-radius: 2px;
 }
 .contact-section{
-  padding: 200px;
+  padding-top: 300px;
   background: #cb4154;
+  text-align: center;
 }
 .contact-section h2{
   text-align: center;
@@ -100,6 +102,8 @@ ul a{
 .contact-links{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 .contact-links a{
   color: white;
@@ -115,4 +119,10 @@ html{
 }
 @media (min-width: 320px) and (max-width: 767px) {
   
+}
+@media (max-width: 600px) {
+  .contact-links {
+    flex-direction: row; 
+    align-items: center; 
+  }
 }
