@@ -113,3 +113,6 @@ ul a{
 html{
   scroll-behavior: smooth;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  /* Styles for Android phones */
+}
