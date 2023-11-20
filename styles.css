@@ -4,7 +4,7 @@
 }
 #navbar{
   display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -15,7 +15,7 @@
 }
 ul{
   display: flex;
-  margin-right: 2rem;
+  align-items: center;
   list-style: none
 }
 ul a{
@@ -26,7 +26,7 @@ ul a{
     color: white;
 }
 #about{
-  padding: 300px;
+  padding: 10% 5%;
   background-color: #d8bcab;
 }
 #about h1{
@@ -114,5 +114,5 @@ html{
   scroll-behavior: smooth;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* Styles for Android phones */
+  
 }
